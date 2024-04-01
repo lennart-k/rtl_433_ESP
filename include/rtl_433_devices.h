@@ -486,18 +486,18 @@
     DECL(yale_hsa)                   \
 /* Add new personal decoders here. */
 /* devices I don't use and that potentially conflict with those I do use \
-    DECL(waveman)                    \
-    DECL(hondaremote)                \
-    DECL(honeywell)                  \
-    DECL(honeywell_cm921)            \
-    DECL(honeywell_wdb)              \
-    DECL(fordremote)                 \
-    DECL(honeywell_wdb_fsk)          \
-    DECL(govee)                      \
-    DECL(govee_h5054)                \
+    DECL(waveman)                    \  OOK
+    DECL(hondaremote)                \  FSK
+    DECL(honeywell)                  \  OOK
+    DECL(honeywell_cm921)            \  FSK
+    DECL(honeywell_wdb)              \  FSK
+    DECL(fordremote)                 \  OOK
+    DECL(honeywell_wdb_fsk)          \  FSK
+    DECL(govee)                      \  OOK
+    DECL(govee_h5054)                \  OOK
     */
-#  define NUMOF_OOK_DEVICES 1
-#  define NUMOF_FSK_DEVICES 0
+#  define NUMOF_OOK_DEVICES 152
+#  define NUMOF_FSK_DEVICES 76
 #endif
 
 #define DECL(name) extern r_device name;
