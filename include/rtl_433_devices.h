@@ -255,12 +255,11 @@
  * Subset of devices that I have access to and have tested with
  */
 #  define DEVICES         \
-    /*devices I do use*/             \
     DECL(ambient_weather)            \
     DECL(intertechno)                \
     DECL(gt_wt_02)                   \
     DECL(tfa_twin_plus_303049)       \
-    /*devices I'm not sure about*/   \
+    \
     DECL(abmt)                       \
     DECL(acurite_rain_896)           \
     DECL(acurite_th)                 \
@@ -485,7 +484,8 @@
     DECL(X10_RF)                     \
     DECL(x10_sec)                    \
     DECL(yale_hsa)                   \
-    /* devices I don't use and that potentially conflict with those I do use \
+/* Add new personal decoders here. */
+/* devices I don't use and that potentially conflict with those I do use \
     DECL(waveman)                    \
     DECL(hondaremote)                \
     DECL(honeywell)                  \
@@ -496,7 +496,6 @@
     DECL(govee)                      \
     DECL(govee_h5054)                \
     */
-/* Add new personal decoders here. */
 #  define NUMOF_OOK_DEVICES 1
 #  define NUMOF_FSK_DEVICES 0
 #endif
