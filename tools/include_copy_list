@@ -1,6 +1,9 @@
 abuf.h
 bitbuffer.h
+bit_util.h
 compat_time.h
+c_util.h
+data.h
 decoder.h
 decoder_util.h
 fatal.h
@@ -9,10 +12,12 @@ logger.h
 optparse.h
 output_log.h
 pulse_analyzer.h
+pulse_data.h
 pulse_detect.h
 pulse_slicer.h
+rtl_433.h
 r_api.h
 r_device.h
+r_private.h
 r_util.h
 rfraw.h
-util.h
